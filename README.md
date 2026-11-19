@@ -1,6 +1,11 @@
-# 🎈 Blank app template
+# Titanic passenger data
 
-A simple Streamlit app template for you to modify!
+This Streamlit app explores the included `titanic.csv` in four tabs: Overview,
+Explore, Preprocessing, and Data Explorer. Shared sidebar filters update the
+passenger metrics, charts, and data table. The Data Explorer provides Raw,
+Cleaned, and Transformed views. The app fills missing age and embarked values,
+adds Min-Max age/fare features and age groups, and previews dummy-coded sex and
+embarked values. Findings describe observed associations, not causation.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
@@ -21,5 +26,5 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
 2. Run the app
 
    ```
-   $ uv run streamlit run streamlit_app.py
+   $ uv run streamlit run app.py
    ```
